@@ -31,16 +31,7 @@
 - Responsive and user-friendly interface  
 
 ## Project Structure  
-SensAI/
-├── prisma/ # Database schema and migrations
-├── public/ # Static assets
-├── src/
-│ ├── app/ # Next.js App Router
-│ ├── components/ # Reusable UI components
-│ ├── lib/ # Utility functions and configurations
-├── .env
-├── package.json
-└── tailwind.config.ts
+<img width="536" height="726" alt="image" src="https://github.com/user-attachments/assets/2f2e72fe-419b-43ae-be24-6fc4a9a7d727" />
 
 ## Getting Started  
 
