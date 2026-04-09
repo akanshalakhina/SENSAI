@@ -1,23 +1,89 @@
-Deployed Website: https://senseai-nxj8iw3gz-akanshalakhinas-projects.vercel.app
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🚀 SensAI – AI-Powered Career Assistant
 
-## Getting Started
+An intelligent full-stack web application that helps users create job-ready content, prepare for interviews, and manage professional profiles using AI.
 
-First, run the development server:
+🌟 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+SensAI is designed to simplify the job preparation process by leveraging AI. It enables users to generate personalized cover letters, manage their professional information, and practice interview questions — all in one place.
+
+This project showcases full-stack development, modern UI/UX design, and real-world AI integration, making it highly relevant for software engineering roles.
+
+✨ Features
+🤖 AI Cover Letter Generator
+Generate tailored, job-specific cover letters instantly using AI
+👤 User Profile Management
+Store and reuse personal and professional details efficiently
+🎯 Interview Preparation Module
+Practice commonly asked questions and improve responses
+🔐 Authentication System
+Secure login/signup using Clerk
+⚡ Optimized Performance
+Built with Next.js for fast rendering and scalability
+📱 Responsive Design
+Works seamlessly across desktop and mobile devices
+🛠️ Tech Stack
+
+Frontend
+
+Next.js (App Router)
+React.js
+Tailwind CSS
+
+Backend
+
+Next.js API Routes
+
+Database
+
+Prisma ORM + PostgreSQL
+
+Authentication
+
+Clerk
+
+AI Integration
+
+Gemini API / AI services
+📂 Project Structure
+SensAI/
+│── prisma/              # Database schema & migrations
+│── public/              # Static assets
+│── src/
+│   ├── app/             # Next.js App Router
+│   ├── components/      # Reusable UI components
+│   ├── lib/             # Utilities & configurations
+│── .env                 # Environment variables
+│── package.json
+│── tailwind.config.ts
+⚙️ Getting Started
+1. Clone the Repository
+git clone https://github.com/akanshalakhina/SENSAI.git
+cd SENSAI
+2. Install Dependencies
+pnpm install
+3. Configure Environment Variables
+
+Create a .env file in the root directory:
+
+DATABASE_URL=your_database_url
+NEXT_PUBLIC_CLERK_FRONTEND_API=your_clerk_key
+CLERK_SECRET_KEY=your_clerk_secret
+4. Setup Database
+pnpm prisma generate
+pnpm prisma migrate dev
+5. Run the Application
 pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
+💡 Use Cases
+Students preparing for placements
+Job seekers creating personalized applications
+Professionals improving interview skills
+Users exploring AI-powered productivity tools
+🚀 Future Improvements
+AI Resume Analyzer
+Job Recommendation System
+Interview Performance Feedback
+Multi-language Support
+Resume Builder with AI Suggestions
